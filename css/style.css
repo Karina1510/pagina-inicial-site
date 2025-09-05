@@ -1,0 +1,97 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+    
+body{
+        color: white;
+
+}
+
+.container{
+
+width:100%;
+height: 100vh;
+background-image: url(/img/Gemini_Generated_Image_aig2h5aig2h5aig2.png);
+background-position: center;
+background-size: cover;  
+padding-top: 35px;
+padding-left: 10%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo{
+    font-size: 40px;
+}
+.logo span{
+color: #186411
+
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+
+nav ul li a{
+    color: #fdf6f6;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #186411;
+}
+
+.login{
+    color: #f5f3f3;
+    font-size: 18px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.register{
+    color: #000;
+    text-decoration: none;
+    background: #f0ebeb;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 9px 25px;
+}
+
+.content{
+    margin-top: 12%;
+    max-width: 600px;
+    
+}
+
+.content h3 p{
+    font-size: 55px;
+    margin-top: 10px;
+    font-style: #000;
+    line-height: 25px ;
+}
+.link{
+    margin-top:30px;
+
+}
+
+.link .Saiba{
+    color: #000;
+    background: #f0ebeb;
+    text-decoration: none;
+    padding: 9px 25px;
+    border-radius: 9;
+    font-weight: bold;
+
+}
